@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.choinisae.nisaechoi.myapplication.AndroidExamActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/a_team_score_txt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="A팀 : 0점"
+            android:textSize="33sp" />
+
+        <Button
+            android:id="@+id/a_team_one_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1점" />
+
+        <Button
+            android:id="@+id/a_team_two_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2점" />
+
+        <Button
+            android:id="@+id/a_team_three_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3점" />
+
+        <Button
+            android:id="@+id/a_team_result_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="result" />
+
+        <TextView
+            android:id="@+id/a_team_result_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="클릭횟수 : 0번"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/b_team_score_txt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="B팀 : 0점"
+            android:textSize="33sp" />
+
+        <Button
+            android:id="@+id/b_team_one_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1점" />
+
+        <Button
+            android:id="@+id/b_team_two_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2점" />
+
+        <Button
+            android:id="@+id/b_team_three_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3점" />
+
+        <Button
+            android:id="@+id/b_team_result_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="result" />
+
+        <TextView
+            android:id="@+id/b_team_result_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="클릭횟수 : "
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.choinisae.nisaechoi.myapplication.CoffeeOrderActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="휘핑크림 + 500원"
+        android:textSize="33sp" />
+
+    <CheckBox
+        android:id="@+id/cream_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="휘핑크림을 추가하시겠습니까?" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가격 : +1500 원"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minus_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/order_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/plus_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="고객 정보"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/name_edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="고객 이름" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주문" />
+
+</LinearLayout>

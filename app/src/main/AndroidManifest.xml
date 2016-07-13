@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.choinisae.nisaechoi.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".CoffeeOrderActivity" />
+        <activity android:name=".AndroidExamActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".listexam.ListPracticeActivity" />
+        <activity android:name=".exam7_4.ListExamActivity" />
+        <activity android:name=".design.DesignExamActivity" />
+        <activity android:name=".IntentExam.IntentActivity" />
+        <activity android:name=".IntentExam.NextActivity" />
+        <activity android:name=".IntentExam.IntentExamActivity" />
+        <activity android:name=".badexam.FirstActivity" />
+        <activity android:name=".badexam.SecondActivity" />
+        <activity android:name=".memo_practice.MemoMainActivity" />
+        <activity android:name=".memo_practice.WriteMemoActivity" />
+        <activity android:name=".lifeCycle.LifeCycleActivity" />
+        <activity android:name=".lifeCycle.Main3Activity" />
+        <activity android:name=".exam7_11.ExamActivity" />
+        <activity android:name=".exam7_11.ExamSecondActivity" />
+        <activity android:name=".fragment.FragmentActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".dialog.MyDialog"></activity>
+    </application>
+
+</manifest>
