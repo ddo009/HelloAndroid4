@@ -16,6 +16,7 @@ import com.choinisae.nisaechoi.myapplication.exam7_4.ListExamActivity;
 import com.choinisae.nisaechoi.myapplication.fragment.FragmentActivity;
 import com.choinisae.nisaechoi.myapplication.lifeCycle.LifeCycleActivity;
 import com.choinisae.nisaechoi.myapplication.listexam.ListPracticeActivity;
+import com.choinisae.nisaechoi.myapplication.memo_fragment.MemoExamActivity;
 import com.choinisae.nisaechoi.myapplication.memo_practice.MemoMainActivity;
 import com.choinisae.nisaechoi.myapplication.viewpager.ViewPagerActivity;
 
@@ -75,6 +76,8 @@ public class MainListActivity extends ListActivity {
         addItem(myData, "fragment exam", FragmentActivity.class);
         addItem(myData, "viewPager", ViewPagerActivity.class);
         addItem(myData, "CustomDialog", MyDialog.class);
+        addItem(myData, "FragmentExam2", com.choinisae.nisaechoi.myapplication.exam7_14.ExamActivity.class);
+        addItem(myData, "FragmentMemo", MemoExamActivity.class);
         // ----- 메뉴 추가 여기까지
 
         // 이름 순 정렬

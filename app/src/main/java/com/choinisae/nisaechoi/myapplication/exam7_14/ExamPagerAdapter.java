@@ -1,4 +1,4 @@
-package com.choinisae.nisaechoi.myapplication.viewpager;
+package com.choinisae.nisaechoi.myapplication.exam7_14;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,38 +6,33 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.choinisae.nisaechoi.myapplication.fragment.ButtonFragment;
 import com.choinisae.nisaechoi.myapplication.fragment.ColorFragment;
-import com.choinisae.nisaechoi.myapplication.fragment.EditTextFragment;
 
 /**
- * Created by donghaechoi on 2016. 7. 12..
+ * Created by donghaechoi on 2016. 7. 14..
  */
-public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
+public class ExamPagerAdapter extends FragmentPagerAdapter {
+    public static final int PAGE_COUNT = 3;
 
-    public static final int PAGE_COUNT = 4;
-
-    public MyFragmentPagerAdapter(FragmentManager fm) {
+    public ExamPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
     @Override
     public Fragment getItem(int position) {
-
         switch (position) {
             case 0:
-                return ButtonFragment.newInstance();
+                return ExamFragment.newInstance();
             case 1:
-                return EditTextFragment.newInstance();
+                return ColorFragment.newInstance();
             case 2:
                 return ButtonFragment.newInstance();
-            case 3:
-                return ColorFragment.newInstance();
-            default:
-                return ColorFragment.newInstance();
         }
+        return null;
     }
 
     @Override
     public int getCount() {
         return PAGE_COUNT;
     }
+
 }

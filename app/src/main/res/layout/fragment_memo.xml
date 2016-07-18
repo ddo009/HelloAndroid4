@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.choinisae.nisaechoi.myapplication.IntentExam.IntentExamActivity">
+    tools:context="com.choinisae.nisaechoi.myapplication.memo_fragment.MemoFragment">
 
-    <Button
-        android:id="@+id/next_activity_btn"
+    <EditText
+        android:id="@+id/fragment_memo_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/next_activity_edt"
+        android:id="@+id/fragment_memo_content"
         android:layout_width="match_parent"
-        android:inputType="textPassword"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fragment_memo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="추가완료" />
 
 </LinearLayout>

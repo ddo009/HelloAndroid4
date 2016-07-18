@@ -37,7 +37,11 @@
         <activity android:name=".exam7_11.ExamSecondActivity" />
         <activity android:name=".fragment.FragmentActivity" />
         <activity android:name=".viewpager.ViewPagerActivity" />
-        <activity android:name=".dialog.MyDialog"></activity>
+        <activity android:name=".dialog.MyDialog" />
+        <activity android:name=".exam7_14.ExamActivity" />
+        <activity android:name=".memo_fragment.MemoExamActivity" />
+        <activity android:name=".memo_fragment.WriteMemoActivity2" />
+        <activity android:name=".fragmentcallback.FragmentCallback"></activity>
     </application>
 
 </manifest>
