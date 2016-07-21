@@ -14,6 +14,7 @@ import com.choinisae.nisaechoi.myapplication.dialog.MyDialog;
 import com.choinisae.nisaechoi.myapplication.exam7_11.ExamActivity;
 import com.choinisae.nisaechoi.myapplication.exam7_4.ListExamActivity;
 import com.choinisae.nisaechoi.myapplication.fragment.FragmentActivity;
+import com.choinisae.nisaechoi.myapplication.girdview.GridActivity;
 import com.choinisae.nisaechoi.myapplication.lifeCycle.LifeCycleActivity;
 import com.choinisae.nisaechoi.myapplication.listexam.ListPracticeActivity;
 import com.choinisae.nisaechoi.myapplication.memo_fragment.MemoExamActivity;
@@ -78,6 +79,7 @@ public class MainListActivity extends ListActivity {
         addItem(myData, "CustomDialog", MyDialog.class);
         addItem(myData, "FragmentExam2", com.choinisae.nisaechoi.myapplication.exam7_14.ExamActivity.class);
         addItem(myData, "FragmentMemo", MemoExamActivity.class);
+        addItem(myData, "GridActivity", GridActivity.class);
         // ----- 메뉴 추가 여기까지
 
         // 이름 순 정렬

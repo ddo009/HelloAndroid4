@@ -41,7 +41,9 @@
         <activity android:name=".exam7_14.ExamActivity" />
         <activity android:name=".memo_fragment.MemoExamActivity" />
         <activity android:name=".memo_fragment.WriteMemoActivity2" />
-        <activity android:name=".fragmentcallback.FragmentCallback"></activity>
+        <activity android:name=".fragmentcallback.FragmentCallback" />
+        <activity android:name=".last.LastFragmentExam" />
+        <activity android:name=".girdview.GridActivity"></activity>
     </application>
 
 </manifest>
