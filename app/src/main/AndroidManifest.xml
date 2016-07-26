@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".MainListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,6 @@
         <activity android:name=".memo_practice.MemoMainActivity" />
         <activity android:name=".memo_practice.WriteMemoActivity" />
         <activity android:name=".lifeCycle.LifeCycleActivity" />
-        <activity android:name=".lifeCycle.Main3Activity" />
         <activity android:name=".exam7_11.ExamActivity" />
         <activity android:name=".exam7_11.ExamSecondActivity" />
         <activity android:name=".fragment.FragmentActivity" />
@@ -41,9 +40,18 @@
         <activity android:name=".exam7_14.ExamActivity" />
         <activity android:name=".memo_fragment.MemoExamActivity" />
         <activity android:name=".memo_fragment.WriteMemoActivity2" />
-        <activity android:name=".fragmentcallback.FragmentCallback" />
         <activity android:name=".last.LastFragmentExam" />
-        <activity android:name=".girdview.GridActivity"></activity>
+        <activity android:name=".girdview.GridActivity" />
+        <activity android:name=".scroll_view.ScrollActivity" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragment.FragCallActivity" />
+        <activity android:name=".fragment.ChangeActivity" />
+        <activity android:name=".fragment.NumberChangeActivity" />
+        <activity android:name=".database.DataBaseActivity" />
+        <activity android:name=".android_db.AndroidDbActivity"></activity>
     </application>
 
 </manifest>

@@ -31,7 +31,7 @@ public class GridActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        mData.add(new GridItem(R.mipmap.ic_launcher, "아이템이 추가되었습니다."));
+        mData.add(new GridItem(R.mipmap.ic_launcher, "아이템이 추가되었습니다.", "Button"));
         mAdapter.notifyDataSetChanged();
     }
 }

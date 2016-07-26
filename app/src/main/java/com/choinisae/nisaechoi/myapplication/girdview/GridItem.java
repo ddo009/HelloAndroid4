@@ -7,10 +7,16 @@ public class GridItem {
 
     private int gridItemRes;
     private String gridItemName;
+    private String gridButtonName;
 
-    public GridItem(int gridItemRes, String gridItemName) {
+    public GridItem(int gridItemRes, String gridItemName, String gridButtonName) {
         this.gridItemRes = gridItemRes;
         this.gridItemName = gridItemName;
+        this.gridButtonName = gridButtonName;
+    }
+
+    public String getGridButtonName() {
+        return gridButtonName;
     }
 
     public int getGridItemRes() {

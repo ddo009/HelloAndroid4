@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -48,6 +49,7 @@ public class GridMyAdapter extends BaseAdapter {
             convertView = mLayoutInflater.inflate(R.layout.grid_item_layout, parent, false);
             holder.image = (ImageView) convertView.findViewById(R.id.grid_item_image);
             holder.text = (TextView) convertView.findViewById(R.id.grid_item_text);
+            holder.button = (Button) convertView.findViewById(R.id.grid_item_button);
             convertView.setTag(holder);
         } else {
             holder = (GridHolder) convertView.getTag();
@@ -55,6 +57,7 @@ public class GridMyAdapter extends BaseAdapter {
         GridItem item = (GridItem) getItem(position);
         holder.image.setImageResource(item.getGridItemRes());
         holder.text.setText(item.getGridItemName());
+        holder.button.setText(item.getGridButtonName());
         return convertView;
     }
 
@@ -63,4 +66,5 @@ public class GridMyAdapter extends BaseAdapter {
 class GridHolder {
     ImageView image;
     TextView text;
+    Button button;
 }
