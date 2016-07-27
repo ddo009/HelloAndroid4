@@ -42,6 +42,7 @@ public class MyFacade {
         SQLiteDatabase db = mHelper.getReadableDatabase();
         // SQL 문에서 아래와 같이 작성하던걸 Android 에서 여러번 활용하기 위해 이렇게 작성합니다.
         // select * from mydata;
+        // SELECT * TABLE_NAME
         return db.query(MyDataBase.MyEntry.TABLE_NAME,
                 columns,
                 selection,

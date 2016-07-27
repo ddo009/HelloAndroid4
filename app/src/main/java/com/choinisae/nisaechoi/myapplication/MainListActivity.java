@@ -22,6 +22,7 @@ import com.choinisae.nisaechoi.myapplication.lifeCycle.LifeCycleActivity;
 import com.choinisae.nisaechoi.myapplication.listexam.ListPracticeActivity;
 import com.choinisae.nisaechoi.myapplication.memo_fragment.MemoExamActivity;
 import com.choinisae.nisaechoi.myapplication.memo_practice.MemoMainActivity;
+import com.choinisae.nisaechoi.myapplication.networkcheck.NetworkCheckActivity;
 import com.choinisae.nisaechoi.myapplication.scroll_view.ScrollActivity;
 import com.choinisae.nisaechoi.myapplication.viewpager.ViewPagerActivity;
 
@@ -88,6 +89,7 @@ public class MainListActivity extends ListActivity {
         addItem(myData, "TextWatcher", ChangeActivity.class);
         addItem(myData, "NumberChange", NumberChangeActivity.class);
         addItem(myData, "DataBase Exam1", DataBaseActivity.class);
+        addItem(myData, "NetworkCheck", NetworkCheckActivity.class);
 
         // ----- 메뉴 추가 여기까지
 

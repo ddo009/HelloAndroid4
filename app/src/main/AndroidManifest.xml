@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.choinisae.nisaechoi.myapplication">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -51,7 +53,8 @@
         <activity android:name=".fragment.ChangeActivity" />
         <activity android:name=".fragment.NumberChangeActivity" />
         <activity android:name=".database.DataBaseActivity" />
-        <activity android:name=".android_db.AndroidDbActivity"></activity>
+        <activity android:name=".android_db.AndroidDbActivity" />
+        <activity android:name=".networkcheck.NetworkCheckActivity"></activity>
     </application>
 
 </manifest>
